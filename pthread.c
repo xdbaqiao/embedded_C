@@ -33,7 +33,7 @@ static void write_function()
             printf("writing...");
             mutex_signal = 0;
         }
-        pthread_mutex_unlock(&mux);
+        pthread_mutex_unlock(&mut);
     }
 }
 
